@@ -7,6 +7,8 @@ import mk.ukim.finki.emt.shoecatalog.domain.models.Review;
 import mk.ukim.finki.emt.shoecatalog.domain.models.enums.Categories;
 import mk.ukim.finki.emt.shoecatalog.domain.models.enums.Gender;
 
+import java.util.List;
+
 @Data
 public class ShoeForm {
 
@@ -18,5 +20,4 @@ public class ShoeForm {
 
     private Categories category;
     private Brand brand;
-    private Review review;
 }

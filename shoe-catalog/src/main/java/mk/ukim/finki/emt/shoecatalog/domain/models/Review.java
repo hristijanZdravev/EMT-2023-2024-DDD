@@ -17,6 +17,7 @@ public class Review extends AbstractEntity<ReviewId> {
 
     private  Double rating;
 
+    private String comment;
      private LocalDate date;
 
 

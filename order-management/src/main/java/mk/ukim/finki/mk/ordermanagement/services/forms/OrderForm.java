@@ -1,9 +1,10 @@
 package mk.ukim.finki.mk.ordermanagement.services.forms;
+import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;
 import mk.ukim.finki.emt.sharedkernel.domain.financial.enums.Currency;
 
 import javax.validation.Valid;
-import javax.validation.constraints.NotEmpty;
+
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;

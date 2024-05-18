@@ -12,12 +12,14 @@ public interface ShoeService {
 
     Brand findBrandById(ShoeId id);
 
-    Double getRatingAvg();
-    Review findReviewById(ShoeId id);
+    Double getRatingAvg(ShoeId id);
+    List<Review> findReviewsById(ShoeId id);
     Shoe findById(ShoeId id);
     Shoe createProduct(ShoeForm form);
     Shoe orderItemCreated(ShoeId productId, int quantity);
     Shoe orderItemRemoved(ShoeId productId, int quantity);
     List<Shoe> getAll();
 
+    Shoe addReview(ShoeId productId, Review review);
+    Shoe removeReview(ShoeId productId,Review review);
 }

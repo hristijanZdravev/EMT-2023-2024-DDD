@@ -9,6 +9,8 @@ import mk.ukim.finki.emt.shoecatalog.domain.models.enums.Categories;
 import mk.ukim.finki.emt.shoecatalog.domain.models.enums.Gender;
 import mk.ukim.finki.emt.shoecatalog.domain.models.ids.ShoeId;
 
+import java.util.List;
+
 @Entity
 @Data
 @Table(name = "product_shoe")
@@ -28,13 +30,13 @@ private Integer sales;
 @ManyToOne
 private Brand brand;
 
-    @ManyToOne
-    private Review review;
+    @OneToMany(cascade = CascadeType.ALL,orphanRemoval = true, fetch = FetchType.EAGER)
+    private List<Review> reviews;
     protected Shoe() {
         super(DomainObjectId.randomId(ShoeId.class));
     }
 
-    public static Shoe build(String seriesName, Money price, Integer sales,Gender gender,Categories category,Brand brand, Review review) {
+    public static Shoe build(String seriesName, Money price, Integer sales,Gender gender,Categories category,Brand brand, List<Review> reviews) {
         Shoe s = new Shoe();
         s.price = price;
         s.seriesName = seriesName;
@@ -42,7 +44,7 @@ private Brand brand;
         s.gender =gender;
         s.category=category;
         s.brand = brand;
-        s.review= review;
+        s.reviews= reviews;
         return s;
     }
 

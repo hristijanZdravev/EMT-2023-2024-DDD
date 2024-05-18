@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31d923db-f02f-4585-969b-d4a10927313a" name="Changes" comment="" />
+    <list default="true" id="31d923db-f02f-4585-969b-d4a10927313a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/mk/ordermanagement/OrderManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/mk/ordermanagement/OrderManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/mk/ordermanagement/services/forms/OrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/mk/ordermanagement/services/forms/OrderForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/mk/ordermanagement/services/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-management/src/main/java/mk/ukim/finki/mk/ordermanagement/services/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/domain/models/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/domain/models/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/domain/models/Shoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/domain/models/Shoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/services/ShoeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/services/ShoeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/services/forms/ShoeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/services/forms/ShoeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/services/impl/ShoeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shoe-catalog/src/main/java/mk/ukim/finki/emt/shoecatalog/services/impl/ShoeServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +26,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,6 +60,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
     "last_opened_file_path": "C:/Users/PC/IdeaProjects/EMT/DDD-ShoeShop/ddd-shoe-shop/shared-kernel",
@@ -63,7 +79,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderManagementApplication">
+  <component name="RunManager" selected="Spring Boot.ShoeCatalogApplication">
     <configuration name="OrderManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order-management" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.mk.ordermanagement.OrderManagementApplication" />
@@ -97,7 +113,7 @@
       <workItem from="1716033828051" duration="61000" />
       <workItem from="1716033920247" duration="417000" />
       <workItem from="1716034343103" duration="113000" />
-      <workItem from="1716034501108" duration="20252000" />
+      <workItem from="1716034501108" duration="24122000" />
     </task>
     <servers />
   </component>
